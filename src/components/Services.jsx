@@ -20,11 +20,26 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="services-section">
+    <section id="services" className="services-section" style={{padding: '6rem 0'}}>
       <div className="container">
         <h2 className="section-title">Os Nossos Tratamentos</h2>
         <p className="section-subtitle">Descubra a nossa gama completa de serviços pensados para realçar a sua beleza natural.</p>
         
+        {/* Banner de Destaque com Imagem Real do Tratamento */}
+        <div className="services-featured">
+          <div className="services-featured-content">
+            <span className="services-featured-tag">Tecnologia de Ponta</span>
+            <h3 className="services-featured-title">Resultados Visíveis e de Alta Performance</h3>
+            <p className="services-featured-text">
+              Aliamos a ciência estética às tecnologias mais avançadas do mercado de beleza para oferecer tratamentos corporais e faciais não invasivos, seguros e com máxima eficácia desde as primeiras sessões.
+            </p>
+            <a href="https://wa.me/351969065846" target="_blank" rel="noreferrer" className="btn btn-primary">Agendar Consulta</a>
+          </div>
+          <div className="services-featured-image-wrapper">
+            <img src="/services.png" alt="Tratamento de Estética Avançada Florbela Viana" className="services-featured-image" />
+          </div>
+        </div>
+
         <div className="services-grid">
           {services.map((item, index) => (
             <motion.div 
