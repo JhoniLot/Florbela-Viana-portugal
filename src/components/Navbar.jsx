@@ -29,8 +29,8 @@ const Navbar = () => {
             src="/logo.png" 
             alt="Florbela Viana Logo" 
             style={{ 
-              height: '65px', 
-              mixBlendMode: 'multiply',
+              height: '50px', 
+              borderRadius: '6px',
               transition: 'transform 0.3s' 
             }} 
             onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}

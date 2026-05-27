@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section id="home" className="hero">
       <div className="hero-bg-container">
-        <img src="/hero.jpg" alt="Interior da Clínica de Estética" className="hero-bg" />
+        <img src="/hero.png" alt="Florbela Viana Estética" className="hero-bg" />
         <div className="hero-overlay"></div>
       </div>
       

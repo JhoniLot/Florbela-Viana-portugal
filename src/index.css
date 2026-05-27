@@ -1,12 +1,12 @@
 :root {
-  /* Colors - Spa/Clinic Aesthetic (Golden Theme) */
-  --primary: #d4af37; /* Gold */
-  --primary-hover: #b5952f;
-  --bg-color: #faf9f6;
+  /* Colors - Florbela Viana Olive Green Theme */
+  --primary: #5c6643; /* Olive Green from Logo */
+  --primary-hover: #485133;
+  --bg-color: #fafaf7;
   --bg-alt: #ffffff;
-  --text-main: #2d2a26;
-  --text-muted: #75706b;
-  --accent: #fcfbf8;
+  --text-main: #2b2e24;
+  --text-muted: #6e7362;
+  --accent: #f5f6f1;
   
   /* Typography */
   --font-heading: 'Playfair Display', serif; /* Elegant */
